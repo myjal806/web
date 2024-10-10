@@ -1,0 +1,374 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    font-size: 32px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    nav{
+        padding: 1rem;
+        background-color: #ffb7b7
+    }
+    main{
+        padding: 1rem;
+        background-color: #FFFFFF;
+        flex: 1;
+        text-align: center;
+    }
+    footer{
+        padding: 1rem;
+        background-color: rgb(174, 174, 255);
+
+    }
+}
+h1 {
+    display: inline; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.text1{
+    color: #A08869;
+}
+.container {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de flex a columna para evitar que se muevan juntos */
+    align-items: flex-start; /* Alinea al inicio */
+    margin: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+    width: 30%;             
+    margin-top: 2%;         
+    margin-left: 20%;
+}
+
+h4 {
+    position: relative;
+    margin-top: -20%; /* Puedes ajustar esto, pero evita los márgenes negativos grandes */
+    margin-left: 52.5%; 
+    margin-right: -300%;
+    width: 50%;
+    font-size: 60%; 
+    text-align: left;
+}
+
+p {
+    position: relative;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 48%;
+    margin-right: 20%;
+    margin-left: 52.5%;
+    margin-top: 0%;
+}
+.horizontal-line {
+    border-top: 2px solid #707070; 
+    width: 80%;  
+    margin: 20px 0;  
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.mision{
+    margin-left: 57%;
+    margin-top: 7%;
+    z-index: 1
+}
+.container1 {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al principio del eje principal (verticalmente) */
+    flex-direction: column;  /* Alinea los elementos en una columna para evitar que queden en una fila */
+    margin: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    position: relative;
+}
+
+h5 {
+    margin-top: -20%;
+    font-size: 90%;
+    align-self: flex-start; 
+    margin-left: 18.5%; 
+}
+.text2 {
+    font-weight: bold;  
+    color: #A08869;  
+}
+
+p1 {
+    margin-top: -3.5%;
+    font-weight: normal;
+    font-size: 48%;
+    align-self: flex-start;  
+    margin-right: 0;  
+    margin-right: 50%;
+    margin-left: 17%;
+}
+.cuadrado {
+    border-top: 175px solid #A08869; 
+    width: 17%;  
+    margin: 20px 0;  
+    margin-left: 53%;
+    margin-top: 4%;
+    position: absolute;
+}
+.container2 {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al principio del eje principal (verticalmente) */
+    flex-direction: column;  /* Alinea los elementos en una columna para evitar que queden en una fila */
+    margin: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    position: relative;
+    margin-top: 27%;
+}
+h3 {
+ 
+    margin-top: -20%;
+    margin-left: 56.5%;    
+    margin-right: 2rem;       
+    font-size: 90%;       
+
+}
+p2{
+    margin-top: -2%;
+    font-weight: normal;
+    font-size: 48%;
+    align-self: flex-start;  
+    margin-right: 10%;
+    margin-left: 55%;
+
+}
+.text3 {
+    font-weight: bold;  
+    color: #A08869; 
+}
+.cuadrado1 {
+    border-top: 175px solid #A08869; 
+    width: 17%;  
+    margin: 20px 0;  
+    margin-left: 32%;
+    margin-top: -1%;
+    position: absolute;
+}
+.vision{
+    margin-left: 16%;
+    z-index: 1
+}
+.horizontal-line1 {
+    border-top: 2px solid #707070; 
+    width: 2.5%;  
+    margin: 20px 0;  
+    margin-left: 53%;
+    margin-top: -13.5%;
+}
+.horizontal-line2 {
+    border-top: 2px solid #707070; 
+    width: 2.5%;  
+    margin: 20px 0;  
+    margin-left: 15%;
+    margin-top: -13.5%;
+}
+
+
+
+h2{
+    text-align: center;
+    font-size: 80%;
+    margin-top: 23%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.preguntas{
+    margin-top: 7%;
+}
+/* inicio del codigo del primer carrusel*/
+.extravagant-accordion-container {
+    display: flex; /* Mantiene los elementos alineados horizontalmente */
+    margin-top: 3%;
+    margin-left: 20%;
+    align-items: flex-start; /* Alinea el acordeón y el texto en la parte superior */
+}
+
+.extravagant-accordion {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px; /* Ancho fijo para el acordeón */
+    margin-right: 20px; /* Espacio entre el acordeón y el texto */
+}
+
+.acordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.6em;
+    transition: background-color 0.3s;
+}
+
+.accordion-button:hover {
+    background-color: #A7957A;
+}
+
+.acordion-content {
+    padding: 15px;
+    display: none;
+    background-color: #f9f9f9;
+    font-size: 0.6em;
+}
+
+.extravagant-text {
+    margin-top: 9%;
+    margin-left: 140px; /* Espacio entre el acordeón y el texto */
+    font-size: 0.5em;
+    color: #333;
+    flex-grow: 1; /* Permite que el contenedor de texto use todo el espacio disponible a la derecha */
+    max-width: 250px; /* Limita el ancho del texto para que no sea demasiado grande */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+/* inicio del codigo del segundo carrusel*/
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border-top: 1px solid #e2e8f0;
+    margin-left: 18%;
+    margin-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.lib{
+    margin-left:16% ;
+    font-size: 60%;
+}
+.aaa{
+    font-size: 0.5rem;
+    margin-left: -2%;
+    margin: 5%;
+
+}
+
+.accordion-item {
+    padding: 5px 0; 
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 10%;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+.accordion-trigger {
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    font-size: 0.9rem; 
+    color: #1f2937;
+    cursor: pointer;
+    padding: 5px 0; 
+
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 5px; /* Reducido el padding a 5px */
+    font-size: 0.8rem; /* Reducido de 0.875rem a 0.8rem */
+    color: #6b7280;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+    
+    
+}
+
+.accordion-trigger:focus {
+    outline: none;
+}
+
+.accordion-trigger.active + .accordion-content {
+    max-height: 300px; 
+    padding: 5px 0; 
+}
+
+.chevron-up {
+    width: 12px; 
+    height: 12px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.chevron-up.active {
+    transform: rotate(180deg);
+}
+
+.accordion-trigger .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 1400px) and (max-width: 1920px){
+    
+    h1{
+        font-size: 150%;
+    }
+    h4{
+        font-size: 100%;
+    }
+    p{
+        font-size: 80%;
+    }
+    h5{
+        font-size: 120%;
+    }
+    p1{
+        margin-top: -2.5%;
+        font-size: 70%;
+    }
+    span{
+        font-size: 110%;
+    }
+    .horizontal-line2{
+        margin-top: -14%;
+    }
+    h3{
+        font-size: 120%;
+    }
+    p2{
+        margin-top: -1%;
+        font-size: 70%;
+    }
+    .horizontal-line1{
+        margin-top: -14%;
+    }
+    h2{
+        font-size: 120%;
+    }
+    .extravagant-accordion{
+        width: 27%;
+    }
+    .accordion-button{
+        font-size: 80%;
+    }
+    .extravagant-text{
+        font-size: 60%;
+        max-width: 300px;
+    }
+    .aaa{
+        font-size: 80%;
+    }
+    .lib{
+        font-size: 90%;
+    }
+}
