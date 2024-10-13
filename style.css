@@ -47,7 +47,7 @@ img {
 
 h4 {
     position: relative;
-    margin-top: -20%; /* Puedes ajustar esto, pero evita los márgenes negativos grandes */
+    margin-top: -20%; 
     margin-left: 52.5%; 
     margin-right: -300%;
     width: 50%;
@@ -372,6 +372,759 @@ h2{
         font-size: 90%;
     }
 }
+/* responsive para 1024*/
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 85%; /* Incremento del tamaño del título */
+    }
+    
+    .primero {
+        width: 45%; /* Ajuste del ancho */
+        margin-left: 12%;
+        margin-top: 5%;
+    }
+    
+    h4 {
+        font-size: 50%; /* Ajuste del tamaño */
+        margin-top: -20%;
+        margin-left: 50%;
+    }
+
+    p {
+        font-size: 45%;
+        margin-right: 10%;
+        margin-left: 50%;
+    }
+
+    h5 {
+        font-size: 65%;
+        margin-top: -22%;
+        margin-left: 20%;
+    }
+
+    .text2 {
+        font-size: 105%; /* Ajuste para mejor lectura */
+    }
+
+    p1 {
+        font-size: 40%;
+        margin-left: 15%;
+    }
+
+    .mision {
+        width: 40%;
+    }
+
+    .horizontal-line2 {
+        margin-top: -20%;
+        margin-left: 15%;
+    }
+
+    .cuadrado {
+        border-top: 120px solid #A08869; /* Ajuste del tamaño del cuadrado */
+    }
+
+    .vision {
+        width: 40%;
+        margin-left: 15%;
+    }
+
+    h3 {
+        font-size: 65%;
+        margin-top: -25%;
+        margin-left: 60%;
+    }
+
+    .text3 {
+        font-size: 105%;
+    }
+
+    p2 {
+        font-size: 40%;
+        margin-left: 58%;
+        margin-right: 5%;
+    }
+
+    .cuadrado1 {
+        border-top: 120px solid #A08869;
+        margin-left: 40%;
+    }
+
+    .horizontal-line1 {
+        margin-top: -20%;
+        margin-left: 60%;
+    }
+
+    h2 {
+        font-size: 70%;
+    }
+
+    .accordion-button {
+        font-size: 50%;
+    }
+
+    .extravagant-accordion {
+        width: 35%; /* Ajuste del ancho del acordeón */
+    }
+
+    .extravagant-text {
+        font-size: 45%;
+        margin-left: 12%;
+        margin-right: -8%;
+        margin-top: 12%;
+        max-width: 32%;
+    }
+
+    .aaa {
+        font-size: 45%;
+        margin-left: -10%;
+        margin-right: -25%;
+    }
+
+    .chevron-up {
+        width: 18px; /* Ajuste del tamaño del ícono */
+        margin-left: 28%;
+    }
+
+    .accordion-content {
+        margin-right: -50%;
+        margin-left: -40%;
+    }
+
+    .lib {
+        margin-top: 4%;
+        font-size: 35%;
+        margin-left: 20%;
+        margin-right: 25%;
+    }
+}
+
+/*responsive para 820*/
+@media screen and (max-width: 820px) {
+    h1 {
+        font-size: 75%; /* Reducido el tamaño del título */
+    }
+    
+    .primero {
+        width: 40%; /* Ajuste del ancho */
+        margin-left: 11%;
+        margin-top: 6%;
+    }
+    
+    h4 {
+        font-size: 45%; /* Ajuste del tamaño */
+        margin-top: -27%;
+        margin-left: 55%;
+    }
+
+    p {
+        font-size: 40%;
+        margin-right: 11%;
+        margin-left: 55%;
+    }
+
+    h5 {
+        font-size: 60%;
+        margin-top: -28%;
+        margin-left: 18%;
+    }
+
+    .text2 {
+        font-size: 100%; /* Ajustado para una mejor lectura */
+    }
+
+    p1 {
+        font-size: 38%;
+        margin-left: 14%;
+    }
+
+    .mision {
+        width: 38%;
+    }
+
+    .horizontal-line2 {
+        margin-top: -25%;
+        margin-left: 14%;
+    }
+
+    .cuadrado {
+        border-top: 110px solid #A08869; /* Ajuste del tamaño del cuadrado */
+    }
+
+    .vision {
+        width: 38%;
+        margin-left: 14%;
+    }
+
+    h3 {
+        font-size: 58%;
+        margin-top: -28%;
+        margin-left: 65%;
+    }
+
+    .text3 {
+        font-size: 100%;
+    }
+
+    p2 {
+        font-size: 38%;
+        margin-left: 61%;
+        margin-right: 3%;
+    }
+
+    .cuadrado1 {
+        border-top: 110px solid #A08869;
+        margin-left: 39%;
+    }
+
+    .horizontal-line1 {
+        margin-top: -22%;
+        margin-left: 61%;
+    }
+
+    h2 {
+        font-size: 65%;
+    }
+
+    .accordion-button {
+        font-size: 45%;
+    }
+
+    .extravagant-accordion {
+        width: 32%; /* Ajuste del ancho del acordeón */
+    }
+
+    .extravagant-text {
+        font-size: 42%;
+        margin-left: 10%;
+        margin-right: -10%;
+        margin-top: 14%;
+        max-width: 30%;
+    }
+
+    .aaa {
+        font-size: 42%;
+        margin-left: -12%;
+        margin-right: -28%;
+    }
+
+    .chevron-up {
+        width: 15px; 
+        margin-left: 30%;
+    }
+
+    .accordion-content {
+        margin-right: -55%;
+        margin-left: -45%;
+    }
+
+    .lib {
+        margin-top: 2%;
+        font-size: 32%;
+        margin-left: 18%;
+        margin-right: 28%;
+    }
+}
+
+/*responsive para 768*/
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 80%;
+    }
+    .primero{
+        width: 35%;
+        margin-left: 13%;
+        margin-top: 5%;
+    }
+    h4{
+        font-size: 40%;
+        margin-top: -25%;
+
+    }
+    p{
+        font-size: 35%;
+        margin-right: 15%;
+
+    }
+    h5{
+        font-size: 55%;
+        margin-top: -26%;
+        margin-left: 16%;
+    }
+    .text2{
+        font-size: 95%;
+    }
+    p1{
+        font-size: 35%;
+        margin-left: 12%;
+    }
+    .mision{
+        width: 35%;
+
+    }
+    .horizontal-line2{
+        margin-top: -22.5%;
+        margin-left:12% ;
+    }
+    .cuadrado{
+        border-top: 100px solid #A08869;
+    }
+    .vision{
+        width: 35%;
+        margin-left: 12%;
+    }
+    h3{
+        font-size: 55%;
+        margin-top: -26%;
+        margin-left: 57%;
+    }
+    .text3{
+        font-size: 95%;
+    }
+    p2{
+        font-size: 35%;
+        margin-left: 55%;
+    }
+    .cuadrado1{
+        border-top: 100px solid #A08869;
+        margin-left: 34%;
+    }
+    .horizontal-line1{
+        margin-top: -24.5%;
+    }
+    h2{
+        font-size: 60%;
+    }
+    .accordion-button{
+        font-size: 40%;
+    }
+    .extravagant-accordion{
+        width: 30%;
+    }
+    .extravagant-text{
+        font-size: 40%;
+        margin-left: 8%;
+        margin-right: -12%;
+        margin-top: 15%;
+        max-width: 28%;
+    }
+
+    .aaa {
+        font-size: 40%;
+        margin-left: -15%;
+        margin-right: -30%;
+    }
+    .chevron-up{
+        width: 0;
+    }
+    .accordion-content {
+        margin-right: -58%;
+        margin-left: -48%;
+    }
+    .lib {
+        margin-top: 0;
+        font-size: 28%;
+        margin-left: 17%;
+        margin-right: 25%;
+    }
+}
+/* responsive para 430*/
+
+@media screen and (max-width: 430px) {
+    h1 {
+        font-size: 70%;
+        margin-left: 2%;
+    }
+    .primero {
+        width: 87%;             
+        margin-top: 6%;         
+        margin-left: 9%;
+    }
+    h4 {
+        font-size: 48%;
+        margin-left: 9%;
+        margin-top: 7%;
+        width: 100%;
+    }
+    p {
+        font-size: 42%;
+        margin-left: 9%;
+        margin-top: 3%;
+        margin-right: 4%;
+    }
+    .horizontal-line {
+        margin-left: 11%;
+    }
+    h5 {
+        font-size: 78%;
+        margin-top: -75%;
+        margin-left: 22%;
+    }
+    span {
+        font-size: 108%;
+    }
+    .mision {
+        width: 78%;
+        margin-left: 12%;
+        margin-top: 26%;
+        z-index: 1;
+    }
+    .cuadrado {
+        width: 43%;
+        border-top: 98px solid #A08869; 
+        margin-left: 50%;
+        margin-top: 19%; 
+    }
+    p1 {
+        font-size: 42%;
+        margin-right: 4%;
+        margin-top: 58%;
+        margin-left: 8%;
+    }
+    h3 {
+        font-size: 78%;
+        margin-top: -75%;
+        margin-left: 21%;
+    }
+    .container2 {
+        margin-top: 13%;
+    }
+    .vision {
+        width: 78%;
+        margin-left: 12%;
+        margin-top: 26%;
+        z-index: 1;
+    }
+    .cuadrado1 {
+        width: 43%;
+        border-top: 98px solid #A08869; 
+        margin-left: 50%;
+        margin-top: 19%; 
+    }
+    p2 {
+        font-size: 42%;
+        margin-right: 4%;
+        margin-top: 64%;
+        margin-left: 8%;
+    }
+    h2 {
+        margin-top: 8%;
+        margin-left: 6%;
+        font-size: 75%;
+    }
+    .preguntas {
+        margin-left: 3%;
+    }
+    .accordion-button {
+        font-size: 38%;
+    }
+    .extravagant-accordion-container {
+        margin-left: 14%;
+    }
+    .extravagant-accordion {
+        width: 34%;
+    }
+    .extravagant-text {
+        font-size: 38%;
+        margin-left: 6%;
+        margin-right: -6%;
+        margin-top: 25%;
+        max-width: 42%;
+    }
+    .preguntas {
+        font-size: 70%;
+        margin-top: 7%;
+    }
+    .aaa {
+        font-size: 42%;
+        margin-left: -42%;
+        margin-right: -63%;
+    }
+    .accordion {
+        margin-left: 12%;
+    }
+    .accordion-trigger .flex {
+        margin-left: 3%;
+    }
+    .accordion-content {
+        margin-right: -42%;
+        margin-left: -32%;
+    }
+    .lib {
+        margin-top: 0;
+        font-size: 42%;
+        margin-left: 0%;
+        margin-right: -26%;
+    }
+    .chevron-up {
+        width: 0;
+    }
+}
+/*responsive para 414*/
+
+@media screen and (max-width: 414px) {
+    h1 {
+        font-size: 65%;
+        margin-left: 2%;
+    }
+    .primero {
+        width: 85%;             
+        margin-top: 7%;         
+        margin-left: 10%;
+    }
+    h4 {
+        font-size: 45%;
+        margin-left: 10%;
+        margin-top: 9%;
+        width: 100%;
+    }
+    p {
+        font-size: 40%;
+        margin-left: 10%;
+        margin-top: 4%;
+        margin-right: 5%;
+    }
+    .horizontal-line {
+        margin-left: 12%;
+    }
+    h5 {
+        font-size: 75%;
+        margin-top: -78%;
+        margin-left: 23%;
+    }
+    span {
+        font-size: 105%;
+    }
+    .mision {
+        width: 75%;
+        margin-left: 12%;
+        margin-top: 28%;
+        z-index: 1;
+    }
+    .cuadrado {
+        width: 42%;
+        border-top: 95px solid #A08869; 
+        margin-left: 53%;
+        margin-top: 20%; 
+    }
+    p1 {
+        font-size: 40%;
+        margin-right: 5%;
+        margin-top: 60%;
+        margin-left: 9%;
+    }
+    h3 {
+        font-size: 75%;
+        margin-top: -78%;
+        margin-left: 23%;
+    }
+    .container2 {
+        margin-top: 14%;
+    }
+    .vision {
+        width: 75%;
+        margin-left: 12%;
+        margin-top: 28%;
+        z-index: 1;
+    }
+    .cuadrado1 {
+        width: 42%;
+        border-top: 95px solid #A08869; 
+        margin-left: 53%;
+        margin-top: 20%; 
+    }
+    p2 {
+        font-size: 40%;
+        margin-right: 5%;
+        margin-top: 68%;
+        margin-left: 9%;
+    }
+    h2 {
+        margin-top: 9%;
+        margin-left: 7%;
+        font-size: 70%;
+    }
+    .preguntas {
+        margin-left: 3%;
+    }
+    .accordion-button {
+        font-size: 35%;
+    }
+    .extravagant-accordion-container{
+        margin-left: 15%;
+    }
+    .extravagant-accordion {
+        width: 32%;
+    }
+    .extravagant-text {
+        font-size: 35%;
+        margin-left: 5%;
+        margin-right: -8%;
+        margin-top: 28%;
+        max-width: 40%;
+    }
+    .preguntas {
+        font-size: 65%;
+        margin-top: 9%;
+    }
+    .aaa {
+        font-size: 40%;
+        margin-left: -45%;
+        margin-right: -65%;
+    }
+    .accordion {
+        margin-left: 14%;
+    }
+    .accordion-trigger .flex {
+        margin-left: 4%;
+    }
+    .accordion-content {
+        margin-right: -45%;
+        margin-left: -35%;
+    }
+    .lib {
+        margin-top: 0;
+        font-size: 40%;
+        margin-left: 0%;
+        margin-right: -28%;
+    }
+    .chevron-up {
+        width: 0;
+    }
+}
+/* responsive para 390*/
+
+@media screen and (max-width: 390px) {
+    h1 {
+        font-size: 63%;
+        margin-left: 3%;
+    }
+    .primero {
+        width: 83%;             
+        margin-top: 7%;         
+        margin-left: 11%;
+    }
+    h4 {
+        font-size: 43%;
+        margin-left: 9%;
+        margin-top: 8%;
+        width: 100%;
+    }
+    p {
+        font-size: 38%;
+        margin-left: 9%;
+        margin-top: 4%;
+        margin-right: 5%;
+    }
+    .horizontal-line {
+        margin-left: 11%;
+    }
+    h5 {
+        font-size: 73%;
+        margin-top: -76%;
+        margin-left: 22%;
+    }
+    span {
+        font-size: 103%;
+    }
+    .mision {
+        width: 73%;
+        margin-left: 13%;
+        margin-top: 27%;
+        z-index: 1;
+    }
+    .cuadrado {
+        width: 41%;
+        border-top: 93px solid #A08869; 
+        margin-left: 52%;
+        margin-top: 19%; 
+    }
+    p1 {
+        font-size: 38%;
+        margin-right: 5%;
+        margin-top: 59%;
+        margin-left: 9%;
+    }
+    h3 {
+        font-size: 73%;
+        margin-top: -76%;
+        margin-left: 22%;
+    }
+    .container2 {
+        margin-top: 13%;
+    }
+    .vision {
+        width: 73%;
+        margin-left: 13%;
+        margin-top: 27%;
+        z-index: 1;
+    }
+    .cuadrado1 {
+        width: 41%;
+        border-top: 93px solid #A08869; 
+        margin-left: 52%;
+        margin-top: 19%; 
+    }
+    p2 {
+        font-size: 38%;
+        margin-right: 5%;
+        margin-top: 66%;
+        margin-left: 9%;
+    }
+    h2 {
+        margin-top: 9%;
+        margin-left: 7%;
+        font-size: 68%;
+    }
+    .preguntas {
+        margin-left: 3%;
+    }
+    .accordion-button {
+        font-size: 33%;
+    }
+    .extravagant-accordion-container {
+        margin-left: 14%;
+    }
+    .extravagant-accordion {
+        width: 31%;
+    }
+    .extravagant-text {
+        font-size: 33%;
+        margin-left: 6%;
+        margin-right: -7%;
+        margin-top: 27%;
+        max-width: 39%;
+    }
+    .preguntas {
+        font-size: 63%;
+        margin-top: 8%;
+    }
+    .aaa {
+        font-size: 38%;
+        margin-left: -44%;
+        margin-right: -64%;
+    }
+    .accordion {
+        margin-left: 13%;
+    }
+    .accordion-trigger .flex {
+        margin-left: 3%;
+    }
+    .accordion-content {
+        margin-right: -43%;
+        margin-left: -34%;
+    }
+    .lib {
+        margin-top: 0;
+        font-size: 38%;
+        margin-left: 0%;
+        margin-right: -27%;
+    }
+    .chevron-up {
+        width: 0;
+    }
+}
+/* responsive para 375*/
 @media screen and (max-width: 375px){
     h1{
         font-size: 60%;
@@ -500,4 +1253,136 @@ h2{
         width: 0;
     }
 
+}
+/* responsive para 360*/
+
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 55%;
+        margin-left: 3%;
+    }
+    .primero {
+        width: 78%;             
+        margin-top: 9%;         
+        margin-left: 15%;
+    }
+    h4 {
+        font-size: 38%;
+        margin-left: 14%;
+        margin-top: 11%;
+        width: 100%;
+    }
+    p {
+        font-size: 32%;
+        margin-left: 14%;
+        margin-top: 7%;
+        margin-right: 7%;
+    }
+    .horizontal-line {
+        margin-left: 16%;
+    }
+    h5 {
+        font-size: 65%;
+        margin-top: -85%;
+        margin-left: 29%;
+    }
+    span {
+        font-size: 95%;
+    }
+    .mision {
+        width: 68%;
+        margin-left: 17%;
+        margin-top: 35%;
+        z-index: 1;
+    }
+    .cuadrado {
+        width: 38%;
+        border-top: 85px solid #A08869; 
+        margin-left: 60%;
+        margin-top: 24%; 
+    }
+    p1 {
+        font-size: 32%;
+        margin-right: 7%;
+        margin-top: 72%;
+        margin-left: 15%;
+    }
+    h3 {
+        font-size: 60%;
+        margin-top: -90%;
+        margin-left: 28%;
+    }
+    .container2 {
+        margin-top: 18%;
+    }
+    .vision {
+        width: 68%;
+        margin-left: 17%;
+        margin-top: 35%;
+        z-index: 1;
+    }
+    .cuadrado1 {
+        width: 38%;
+        border-top: 85px solid #A08869; 
+        margin-left: 60%;
+        margin-top: 24%; 
+    }
+    p2 {
+        font-size: 32%;
+        margin-right: 7%;
+        margin-top: 75%;
+        margin-left: 15%;
+    }
+    h2 {
+        margin-top: 12%;
+        margin-left: 11%;
+        font-size: 55%;
+    }
+    .preguntas {
+        margin-left: 5%;
+    }
+    .accordion-button {
+        font-size: 28%;
+    }
+    .extravagant-accordion-container {
+        margin-left: 20%;
+    }
+    .extravagant-accordion {
+        width: 26%;
+    }
+    .extravagant-text {
+        font-size: 28%;
+        margin-left: 8%;
+        margin-right: -12%;
+        margin-top: 38%;
+        max-width: 28%;
+    }
+    .preguntas {
+        font-size: 50%;
+        margin-top: 15%;
+    }
+    .aaa {
+        font-size: 28%;
+        margin-left: -58%;
+        margin-right: -78%;
+    }
+    .accordion {
+        margin-left: 18%;
+    }
+    .accordion-trigger .flex {
+        margin-left: 8%;
+    }
+    .accordion-content {
+        margin-right: -58%;
+        margin-left: -48%;
+    }
+    .lib {
+        margin-top: 0;
+        font-size: 28%;
+        margin-left: 0%;
+        margin-right: -35%;
+    }
+    .chevron-up {
+        width: 0;
+    }
 }
