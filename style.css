@@ -372,3 +372,123 @@ h2{
         font-size: 90%;
     }
 }
+@media screen and (max-width: 375px){
+    h1{
+        font-size: 60%;
+        margin-left: 2%;
+    }
+    .primero {
+        width: 80%;             
+        margin-top: 8%;         
+        margin-left: 12%;
+    }
+    h4{
+        font-size: 40%;
+        margin-left: 12%;
+        margin-top: 10%;
+        width: 100%;
+    }
+    p{
+        font-size: 35%;
+        margin-left: 12%;
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+    .horizontal-line{
+        margin-left: 14%;
+    }
+    h5{
+        font-size: 70%;
+        margin-top: -80%;
+        margin-left: 25%;
+    }
+    span{
+        font-size: 100%;
+    }
+    .mision{
+        width: 72%;
+        margin-left: 14%;
+        margin-top: 30%;
+        z-index: 1
+    }
+    .cuadrado{
+        width: 40%;
+        border-top: 100px solid #A08869; 
+        margin-left: 55%;
+        margin-top: 21%; 
+    }
+    p1{
+        font-size: 35%;
+        margin-right: 5%;
+        margin-top: 65%;
+        margin-left: 11%;
+    }
+    h3{
+        font-size: 70%;
+        margin-top: -90%;
+        margin-left: 25%;
+    }
+    .vision{
+        width: 72%;
+        margin-left: 14%;
+        margin-top: 35%;
+        z-index: 1
+    }
+    .cuadrado1{
+        width: 40%;
+        border-top: 100px solid #A08869; 
+        margin-left: 55%;
+        margin-top: 21%; 
+    }
+    p2{
+        font-size: 35%;
+        margin-right: 5%;
+        margin-top: 80%;
+        margin-left: 11%;
+    }
+    h2{
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 65%;
+    }
+    .accordion-button{
+        font-size: 30%;
+    }
+    .extravagant-accordion{
+        width: 30%;
+
+    }
+    .extravagant-text {
+        font-size: 30%;
+        margin-left: 5%;
+        margin-right: -10%;
+        margin-top: 40%;
+        max-width: 35%;
+    }
+    .preguntas{
+        font-size: 60%;
+        margin-top: 10%;
+    }
+    .aaa{
+        font-size: 40%;
+        margin-left: -10%;
+        margin-right: -40%;
+    }
+    .accordion{
+        margin-left: 15%;
+    }
+    .accordion-trigger .flex{
+        margin-left: 5%;
+    }
+    .accordion-content{
+        margin-right: -28%;
+        margin-left: -5%;
+    }
+    .lib{
+        margin-top: 0;
+        font-size: 40%;
+        margin-left: 0%;
+        margin-right: -10%;
+    }
+
+}
