@@ -362,6 +362,7 @@ h2{
         font-size: 80%;
     }
     .extravagant-text{
+        margin-top: 7%;
         font-size: 60%;
         max-width: 300px;
     }
@@ -847,11 +848,11 @@ h2{
 
     .cuadrado1 {
         border-top: 110px solid #A08869;
-        margin-left: 39%;
+        margin-left: 32%;
     }
 
     .horizontal-line1 {
-        margin-top: -22%;
+        margin-top: -25.5%;
         margin-left: 61%;
     }
 
@@ -944,12 +945,12 @@ h2{
     }
     .vision{
         width: 35%;
-        margin-left: 12%;
+        margin-left: 14%;
     }
     h3{
         font-size: 55%;
         margin-top: -26%;
-        margin-left: 57%;
+        margin-left: 59%;
     }
     .text3{
         font-size: 95%;
@@ -960,10 +961,11 @@ h2{
     }
     .cuadrado1{
         border-top: 100px solid #A08869;
-        margin-left: 34%;
+        margin-left: 28%;
     }
     .horizontal-line1{
-        margin-top: -24.5%;
+        margin-top: -21%;
+        margin-left: 55.5%;
     }
     h2{
         font-size: 60%;
@@ -1838,6 +1840,9 @@ h2{
 }
 /* responsive para 344*/
 @media screen and (max-width: 344px){
+    .container{
+        margin-top: 1%;
+    }
     h5{
         font-size: 55%;
         margin-top: -75%;
@@ -1852,7 +1857,7 @@ h2{
         margin-top: 60%;
     }
     .container{
-        margin-top: 70%;
+        margin-top: 7%;
     }
     .container2{
         margin-top: 40%;
@@ -1871,19 +1876,22 @@ h2{
     }
     .accordion-button{
         font-size: 25%;
+        margin-left: -7%;
 
     }
     .extravagant-text{
-        margin-left: 6%;
+        margin-left: 15%;
         margin-top: 25%;
+        margin-right: 10%;
+        max-width: 35%;
 
     }
     .extravagant-accordion-container {
         margin-left: 20%;
-        margin-right: -35%;
+        margin-right: -3%;
     }
     .accordion{
-        margin-left: 30%;
+        margin-left: 24%;
     }
     .lib{
         margin-left: 4%;
