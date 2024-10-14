@@ -379,36 +379,36 @@ h2{
     }
     
     .primero {
-        width: 45%; /* Ajuste del ancho */
+        width: 40%; /* Ajuste del ancho */
         margin-left: 12%;
         margin-top: 5%;
     }
     
     h4 {
-        font-size: 50%; /* Ajuste del tamaño */
-        margin-top: -20%;
-        margin-left: 50%;
+        font-size: 55%; /* Ajuste del tamaño */
+        margin-top: -25%;
+        margin-left: 57%;
     }
 
     p {
         font-size: 45%;
         margin-right: 10%;
-        margin-left: 50%;
+        margin-left: 57%;
     }
 
     h5 {
-        font-size: 65%;
-        margin-top: -22%;
-        margin-left: 20%;
+        font-size: 85%;
+        margin-top: -27%;
+        margin-left: 18%;
     }
 
     .text2 {
-        font-size: 105%; /* Ajuste para mejor lectura */
+        font-size: 100%; /* Ajuste para mejor lectura */
     }
 
     p1 {
-        font-size: 40%;
-        margin-left: 15%;
+        font-size: 45%;
+        margin-left: 13%;
     }
 
     .mision {
@@ -416,8 +416,9 @@ h2{
     }
 
     .horizontal-line2 {
-        margin-top: -20%;
-        margin-left: 15%;
+        margin-top: -23%;
+        margin-left: 13%;
+        width: 3%;
     }
 
     .cuadrado {
@@ -426,13 +427,13 @@ h2{
 
     .vision {
         width: 40%;
-        margin-left: 15%;
+        margin-left: 13%;
     }
 
     h3 {
-        font-size: 65%;
-        margin-top: -25%;
-        margin-left: 60%;
+        font-size: 85%;
+        margin-top: -27%;
+        margin-left: 66%;
     }
 
     .text3 {
@@ -440,9 +441,10 @@ h2{
     }
 
     p2 {
-        font-size: 40%;
-        margin-left: 58%;
+        font-size: 45%;
+        margin-left: 61%;
         margin-right: 5%;
+        margin-top: -1%;
     }
 
     .cuadrado1 {
@@ -451,8 +453,9 @@ h2{
     }
 
     .horizontal-line1 {
-        margin-top: -20%;
-        margin-left: 60%;
+        margin-top: -23.5%;
+        margin-left: 61%;
+        width: 3%;
     }
 
     h2 {
@@ -487,15 +490,285 @@ h2{
     }
 
     .accordion-content {
-        margin-right: -50%;
+        margin-right: -30%;
         margin-left: -40%;
     }
 
     .lib {
         margin-top: 4%;
         font-size: 35%;
-        margin-left: 20%;
+        margin-left: 18%;
         margin-right: 25%;
+    }
+}
+/* responsive para 912*/
+@media screen and (max-width: 912px) { 
+    h1 {
+        font-size: 80%; /* Ajuste del tamaño del título */
+    }
+    
+    .primero {
+        width: 42%; /* Ajuste del ancho */
+        margin-left: 10%;
+        margin-top: 6%;
+    }
+    
+    h4 {
+        font-size: 50%; /* Ajuste del tamaño */
+        margin-top: -26%;
+        margin-left: 55%;
+    }
+
+    p {
+        font-size: 42%;
+        margin-right: 10%;
+        margin-left: 55%;
+    }
+    .horizontal-line {
+        margin-top: 13%;
+
+    }
+
+
+    h5 {
+        font-size: 80%;
+        margin-top: -29%;
+        margin-left: 16%;
+    }
+
+    .text2 {
+        font-size: 95%; /* Ajuste para mejor legibilidad */
+    }
+
+    p1 {
+        font-size: 45%;
+        margin-left: 11%;
+    }
+
+    .mision {
+        width: 42%;
+    }
+
+    .horizontal-line2 {
+        margin-top: -25.5%;
+        margin-left: 11%;
+        width: 4%;
+    }
+
+    .cuadrado {
+        border-top: 115px solid #A08869; /* Ajuste del tamaño del cuadrado */
+    }
+    .container2{
+        margin-top: 40%;
+    }
+
+    .vision {
+        width: 42%;
+        margin-left: 11%;
+    }
+
+    h3 {
+        font-size: 80%;
+        margin-top: -30%;
+        margin-left: 65%;
+    }
+
+    .text3 {
+        font-size: 100%;
+    }
+
+    p2 {
+        font-size: 45%;
+        margin-left: 60%;
+        margin-right:1%;
+        margin-top: -1%;
+    }
+
+    .cuadrado1 {
+        border-top: 115px solid #A08869;
+        margin-left: 38%;
+        margin-left: 40%;
+    }
+
+    .horizontal-line1 {
+        margin-top: -26%;
+        margin-left: 60%;
+        width: 4%;
+    }
+
+    h2 {
+        font-size: 65%;
+        margin-top: 30%;
+    }
+
+    .accordion-button {
+        font-size: 48%;
+    }
+
+    .extravagant-accordion {
+        width: 33%; /* Ajuste del ancho del acordeón */
+    }
+
+    .extravagant-text {
+        font-size: 46%;
+        margin-left: 11%;
+        margin-right: -7%;
+        margin-top: 11%;
+        max-width: 30%;
+    }
+
+    .aaa {
+        font-size: 42%;
+        margin-left: -9%;
+        margin-right: -22%;
+    }
+
+    .chevron-up {
+        width: 16px; /* Ajuste del tamaño del ícono */
+        margin-left: 26%;
+    }
+
+    .accordion-content {
+        margin-right: -35%;
+        margin-left: -38%;
+    }
+
+    .lib {
+        margin-top: 3%;
+        font-size: 35%;
+        margin-left: 17%;
+        margin-right: 23%;
+    }
+}
+/* responsive para 853*/
+@media screen and (max-width: 853px) {
+    h1 {
+        font-size: 78%; /* Ajuste leve del tamaño del título */
+    }
+    
+    .primero {
+        width: 42%; /* Ajuste del ancho */
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    
+    h4 {
+        font-size: 50%; /* Ajuste del tamaño */
+        margin-top: -25%;
+        margin-left: 55%;
+    }
+
+    p {
+        font-size: 42%;
+        margin-right: 10%;
+        margin-left: 55%;
+    }
+
+    h5 {
+        font-size: 62%;
+        margin-top: -29%;
+        margin-left: 17%;
+    }
+
+    .text2 {
+        font-size: 102%; /* Ajustado para una mejor lectura */
+    }
+
+    p1 {
+        font-size: 40%;
+        margin-left: 13%;
+    }
+
+    .mision {
+        width: 40%;
+    }
+
+    .horizontal-line2 {
+        margin-top: -25%;
+        margin-left: 13%;
+        width: 3%;
+    }
+
+    .cuadrado {
+        border-top: 190px solid #A08869; /* Ajuste del tamaño del cuadrado */
+        width: 25%;
+    }
+
+    .vision {
+        width: 40%;
+        margin-left: 13%;
+    }
+
+    h3 {
+        font-size: 62%;
+        margin-top: -28.5%;
+        margin-left: 63%;
+    }
+
+    .text3 {
+        font-size: 102%;
+    }
+
+    p2 {
+        font-size: 40%;
+        margin-left: 59%;
+        margin-right: 2%;
+    }
+
+    .cuadrado1 {
+        border-top: 190px solid #A08869;
+        margin-left: 32%;
+        width: 25%;
+        margin-top: -2%;
+    }
+
+    .horizontal-line1 {
+        margin-top: -23.5%;
+        margin-left: 59%;
+        width: 2.5%;
+    }
+
+    h2 {
+        font-size: 68%;
+    }
+
+    .accordion-button {
+        font-size: 48%;
+    }
+
+    .extravagant-accordion {
+        width: 34%; /* Ajuste del ancho del acordeón */
+    }
+
+    .extravagant-text {
+        font-size: 45%;
+        margin-left: 9%;
+        margin-right: -9%;
+        margin-top: 13%;
+        max-width: 32%;
+    }
+
+    .aaa {
+        font-size: 45%;
+        margin-left: -11%;
+        margin-right: -26%;
+    }
+
+    .chevron-up {
+        width: 16px; 
+        margin-left: 28%;
+    }
+
+    .accordion-content {
+        margin-right: -50%;
+        margin-left: -43%;
+    }
+
+    .lib {
+        margin-top: 2%;
+        font-size: 34%;
+        margin-left: 17%;
+        margin-right: 26%;
     }
 }
 
@@ -728,6 +1001,152 @@ h2{
         margin-right: 25%;
     }
 }
+/*responsive para 540*/
+@media screen and (max-width: 540px) {
+    h1 {
+        font-size: 75%;
+        margin-left: 3%;
+    }
+    .primero {
+        width: 85%;             
+        margin-top: 5%;         
+        margin-left: 8%;
+    }
+    h4 {
+        font-size: 60%;
+        margin-left: 8%;
+        margin-top: 6%;
+        width: 100%;
+    }
+    p {
+        font-size: 45%;
+        margin-left: 8%;
+        margin-top: 3%;
+        margin-right: 3%;
+    }
+    .horizontal-line {
+        margin-left: 10%;
+        margin-top: 8%;
+    }
+    h5 {
+        font-size: 75%;
+        margin-top: -80%;
+        margin-left: 32%;
+    }
+    .text2{
+        font-size: 100%;
+    }
+    span {
+        font-size: 100%;
+    }
+    .mision {
+        width: 75%;
+        margin-left: 8%;
+        margin-top: 30%;
+        z-index: 1;
+    }
+    .cuadrado {
+        width: 60%;
+        border-top: 190px solid #A08869; 
+        margin-left: 32%;
+        margin-top: 23%; 
+    }
+    p1 {
+        font-size: 45%;
+        margin-right: 3%;
+        margin-top: 70%;
+        margin-left: 7%;
+    }
+    h3 {
+        font-size: 75%;
+        margin-top: -80%;
+        margin-left: 32%;
+    }
+    .text3{
+        font-size: 100%;
+    }
+    .container2 {
+        margin-top: 18%;
+    }
+    .vision {
+        width: 75%;
+        margin-left: 8%;
+        margin-top: 40%;
+        z-index: 1;
+    }
+    .cuadrado1 {
+        width: 60%;
+        border-top: 190px solid #A08869; 
+        margin-left: 33%;
+        margin-top: 32%; 
+    }
+    p2 {
+        font-size: 45%;
+        margin-right: 3%;
+        margin-top: 75%;
+        margin-left: 7%;
+    }
+    h2 {
+        margin-top: 25%;
+        margin-left: 5%;
+        font-size: 70%;
+    }
+    .preguntas {
+        margin-left: 3%;
+    }
+    .accordion-button {
+        font-size: 40%;
+    }
+    .extravagant-accordion-container {
+        margin-left: 13%;
+    }
+    .extravagant-accordion {
+        width: 32%;
+    }
+    .extravagant-text {
+        font-size: 42%;
+        margin-left: 7%;
+        margin-right: -5%;
+        margin-top: 20%;
+        max-width: 40%;
+    }
+    .preguntas {
+        font-size: 72%;
+        margin-top: 6%;
+    }
+    .aaa {
+        font-size: 42%;
+        margin-left: -10%;
+        margin-right: -80%;
+    }
+    .accordion {
+        margin-left: 10%;
+    }
+    .accordion-trigger .flex {
+        margin-left: 2%;
+    }
+    .accordion-content {
+        margin-right: -40%;
+        margin-left: -8%;
+    }
+    .lib {
+        margin-top: 1%;
+        font-size: 42%;
+        margin-left: 1%;
+        margin-right: -25%;
+    }
+    .chevron-up {
+        width: 14px;
+        margin-left: 25%;
+    }
+    .horizontal-line1{
+        width: 0;
+    }
+    .horizontal-line2{
+        width: 0;
+    }
+}
+
 /* responsive para 430*/
 
 @media screen and (max-width: 430px) {
@@ -757,7 +1176,7 @@ h2{
     }
     h5 {
         font-size: 78%;
-        margin-top: -75%;
+        margin-top: -84%;
         margin-left: 22%;
     }
     span {
@@ -765,50 +1184,50 @@ h2{
     }
     .mision {
         width: 78%;
-        margin-left: 12%;
-        margin-top: 26%;
+        margin-left: 9%;
+        margin-top: 32%;
         z-index: 1;
     }
     .cuadrado {
         width: 43%;
         border-top: 98px solid #A08869; 
         margin-left: 50%;
-        margin-top: 19%; 
+        margin-top: 25%; 
     }
     p1 {
         font-size: 42%;
         margin-right: 4%;
-        margin-top: 58%;
+        margin-top: 70%;
         margin-left: 8%;
     }
     h3 {
         font-size: 78%;
-        margin-top: -75%;
+        margin-top: -85%;
         margin-left: 21%;
     }
     .container2 {
-        margin-top: 13%;
+        margin-top: 20%;
     }
     .vision {
         width: 78%;
-        margin-left: 12%;
-        margin-top: 26%;
+        margin-left: 9%;
+        margin-top: 43%;
         z-index: 1;
     }
     .cuadrado1 {
         width: 43%;
         border-top: 98px solid #A08869; 
         margin-left: 50%;
-        margin-top: 19%; 
+        margin-top: 35%; 
     }
     p2 {
         font-size: 42%;
         margin-right: 4%;
-        margin-top: 64%;
+        margin-top: 75%;
         margin-left: 8%;
     }
     h2 {
-        margin-top: 8%;
+        margin-top: 20%;
         margin-left: 6%;
         font-size: 75%;
     }
@@ -857,6 +1276,12 @@ h2{
         margin-right: -26%;
     }
     .chevron-up {
+        width: 0;
+    }
+    .horizontal-line1{
+        width: 0;
+    }
+    .horizontal-line2{
         width: 0;
     }
 }
@@ -919,7 +1344,7 @@ h2{
         margin-left: 23%;
     }
     .container2 {
-        margin-top: 14%;
+        margin-top: 25%;
     }
     .vision {
         width: 75%;
@@ -940,7 +1365,7 @@ h2{
         margin-left: 9%;
     }
     h2 {
-        margin-top: 9%;
+        margin-top: 20%;
         margin-left: 7%;
         font-size: 70%;
     }
@@ -989,6 +1414,12 @@ h2{
         margin-right: -28%;
     }
     .chevron-up {
+        width: 0;
+    }
+    .horizontal-line1{
+        width: 0;
+    }
+    .horizontal-line2{
         width: 0;
     }
 }
@@ -1051,7 +1482,7 @@ h2{
         margin-left: 22%;
     }
     .container2 {
-        margin-top: 13%;
+        margin-top: 20%;
     }
     .vision {
         width: 73%;
@@ -1072,7 +1503,7 @@ h2{
         margin-left: 9%;
     }
     h2 {
-        margin-top: 9%;
+        margin-top: 20%;
         margin-left: 7%;
         font-size: 68%;
     }
@@ -1121,6 +1552,12 @@ h2{
         margin-right: -27%;
     }
     .chevron-up {
+        width: 0;
+    }
+    .horizontal-line1{
+        width: 0;
+    }
+    .horizontal-line2{
         width: 0;
     }
 }
@@ -1182,7 +1619,7 @@ h2{
         margin-left: 25%;
     }
     .container2{
-        margin-top: 15%;
+        margin-top: 19%;
     }
     .vision{
         width: 72%;
@@ -1252,6 +1689,12 @@ h2{
     .chevron-up{
         width: 0;
     }
+    .horizontal-line1{
+        width: 0;
+    }
+    .horizontal-line2{
+        width: 0;
+    }
 
 }
 /* responsive para 360*/
@@ -1283,7 +1726,7 @@ h2{
     }
     h5 {
         font-size: 65%;
-        margin-top: -85%;
+        margin-top: -82%;
         margin-left: 29%;
     }
     span {
@@ -1292,13 +1735,13 @@ h2{
     .mision {
         width: 68%;
         margin-left: 17%;
-        margin-top: 35%;
+        margin-top: 31%;
         z-index: 1;
     }
     .cuadrado {
-        width: 38%;
-        border-top: 85px solid #A08869; 
-        margin-left: 60%;
+        width: 45%;
+        border-top: 110px solid #A08869; 
+        margin-left: 48%;
         margin-top: 24%; 
     }
     p1 {
@@ -1309,23 +1752,23 @@ h2{
     }
     h3 {
         font-size: 60%;
-        margin-top: -90%;
+        margin-top: -80%;
         margin-left: 28%;
     }
     .container2 {
-        margin-top: 18%;
+        margin-top: 30%;
     }
     .vision {
         width: 68%;
         margin-left: 17%;
-        margin-top: 35%;
+        margin-top: 25%;
         z-index: 1;
     }
     .cuadrado1 {
-        width: 38%;
-        border-top: 85px solid #A08869; 
-        margin-left: 60%;
-        margin-top: 24%; 
+        width: 45%;
+        border-top: 110px solid #A08869; 
+        margin-left: 48%;
+        margin-top: 17%; 
     }
     p2 {
         font-size: 32%;
@@ -1346,15 +1789,16 @@ h2{
     }
     .extravagant-accordion-container {
         margin-left: 20%;
+        margin-right: -18%;
     }
     .extravagant-accordion {
         width: 26%;
     }
     .extravagant-text {
         font-size: 28%;
-        margin-left: 8%;
+        margin-left: 2%;
         margin-right: -12%;
-        margin-top: 38%;
+        margin-top: 22%;
         max-width: 28%;
     }
     .preguntas {
@@ -1373,8 +1817,8 @@ h2{
         margin-left: 8%;
     }
     .accordion-content {
-        margin-right: -58%;
-        margin-left: -48%;
+        margin-right: -40%;
+        margin-left: -45%;
     }
     .lib {
         margin-top: 0;
@@ -1385,4 +1829,73 @@ h2{
     .chevron-up {
         width: 0;
     }
+    .horizontal-line1{
+        width: 0;
+    }
+    .horizontal-line2{
+        width: 0;
+    }
 }
+/* responsive para 344*/
+@media screen and (max-width: 344px){
+    h5{
+        font-size: 55%;
+        margin-top: -75%;
+    }
+    .cuadrado{
+        margin-top: 20%;
+    }
+    .mision{
+        margin-top: 28%;
+    }
+    p1{
+        margin-top: 60%;
+    }
+    .container{
+        margin-top: 70%;
+    }
+    .container2{
+        margin-top: 40%;
+    }
+    h3{
+        font-size: 55%;
+        margin-top: -80%;
+    }
+    h2{
+        font-size: 50%;
+        margin-left: 10%;
+    }
+    .extravagant-accordion{
+        width: 25%;
+        margin: 0%;
+    }
+    .accordion-button{
+        font-size: 25%;
+
+    }
+    .extravagant-text{
+        margin-left: 6%;
+        margin-top: 25%;
+
+    }
+    .extravagant-accordion-container {
+        margin-left: 20%;
+        margin-right: -35%;
+    }
+    .accordion{
+        margin-left: 30%;
+    }
+    .lib{
+        margin-left: 4%;
+        margin-right: 8%;
+    }
+    .horizontal-line1{
+        width: 0;
+    }
+    .horizontal-line2{
+        width: 0;
+    }
+}
+
+    
+
